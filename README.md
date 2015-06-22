@@ -170,9 +170,30 @@ In pairs...
 3. Run `git log` to see your full commit history. Oh no! You forgot to mention that the sky was blue in your last commit. Rewrite your last commit message, adding the line "The sky is blue." to the end.
 
 ## Using Git with GitHub
-### How GitHub Fits In
+### How GitHub Fits With Git
 
-### GitHub Work
+What is GitHub? GitHub is a for-profit company that provides online hosting of git repositories on GitHub.com. This makes it possible for large numbers of people to easily collaborate on Git projects from around the world.
+
+Every GitHub user account has its own set of repositories, and every user has full control over their own repos, but no control (at least by default) of anyone else's. Since that's the case, how do people use GitHub to collaborate? Well, first, it is possible to explicitly create a list of collaborators for a particular project through GitHub's platform - that way, all collaborators can write to the common repository. This is less common, however. The more common approach is using 'forks' and 'pull requests', two features of the GitHub platform.
+
+When you `fork` someone else's repo, GitHub creates a totally identical version of the repo and puts it under the control of your GitHub account. Since this repo is now under your control, you can write to it freely. Once you've made changes to it, you can then submit a `pull request`, which is essentially just a notification that asks the original owner to merge in changes that have been made on your `fork`.
+
+### Working With Remotes
+
+That's all well and good, but how do we actually tie Git (which is 'local' - on our personal computers) with a repo on GitHub (which is 'remote')?
+
+As it turns out, this is pretty core functionality of Git. As part of every repository it creates, Git maintains a list of remote repositories which that repository is connected to. Typically, remotes are set up in one of two ways:
+  - Manually: Your local repo exists independently of your remote repo. This remote repo must be added; the command to do that is `git remote add ' + some_name_for_the_remote  + ssh_url_for_the_remote, e.g.
+      ```git
+        git remote add origin git@github.com:ga-wdi-boston/wdi_1_github_intro.git
+      ```
+  - Automatically: If you create your repo on GitHub.com, you can use the command `git clone` to create your own local copy of the repo that's on GitHub. What's more, doing this will automatically set you up with at least one remote repo - the repo you cloned - which stored under the shortcut `origin`. If you're cloning a fork, you get _two_ remote repos pre-loaded: `origin`, which points to your fork, and `upstream`, which points the the original repo that your fork copied.
+
+When you have local changes that you'd like to share up to your fork on GitHub, enter `git push origin` to push your changes up to the `origin`; then, once that's done, submit a pull request.
+
+> If something changes on the original repo (the one you forked), and you want to make sure that your version includes that change, you can pull those changes into your local repo by running the command `git pull upstream`.
 
 ## Further Reading
--
+- https://guides.github.com/activities/forking/
+- https://www.atlassian.com/git/tutorials/setting-up-a-repository
+- https://github.com/Gazler/githug
