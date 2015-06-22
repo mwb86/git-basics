@@ -1,10 +1,10 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
 ## Objectives
+- Use `git log` and `git checkout` to look through the history of a repository.
 - Use `git init` to create a repository.
-- Use `git diff`, `git add`, and `git commit` to create new snapshots in the repository.
-- Use `git clone` to copy a repository.
-- Use `git reset` to 'turn back the clock' on a repository.
+- Use `git status`, `git diff`, `git add`, and `git commit` to create new snapshots in the repository.
+- Use `git reset` and `git commit --amend` to undo or rewrite changes to the repository.
 - Use GitHub to fork and clone a repository.
 - Use GitHub to submit a pull request.
 
