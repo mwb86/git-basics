@@ -50,6 +50,10 @@ If we open our project in Sublime, we can see that the clock has been turned bac
 
 #### Lab :: Browsing Through History
 
+You were told to fork and clone this repository at the start of the lesson. For now, don't worry about what those two things mean.
+
+In pairs, take ten minutes to look through the commit log in this repo, with a special eye to the `project` folder. Can you see the full history? Try to turn back the state of the repo to one, two, and three commits before the most recent commit. What changes have taken place inside the `project` repo with each commit?
+
 ### Making History
 
 Let's take a closer look at how a repository gets built over time.
@@ -91,17 +95,64 @@ And that's it! From then on, your workflow is simply
 
 #### Lab :: Making History
 
+In pairs, work together to make the following changes to this repository. Make a commit after each one, and make a resonable commit message each time to describe what that commit does.
+
+1. Link your HTML to your CSS file by putting the following code in the `<head>` section.
+
+  ```HTML
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  ```
+
+2. Make a folder inside `project` called `images`, and download an image of your choosing to place in there. Then, go into the HTML file and add an `<img>` tag with a `src` attribute that links to your new image.
+
+3. Insert the following CSS into your CSS file:
+
+  ````css
+  img {
+    height: 100px
+    border: 10px black solid;
+  }
+  ````
+
+4. Write the following HTML somewhere in the index.html file:
+
+  ```html
+  <button id="make-alert"> CLICK ME </button>
+  ```
+
+5. Insert the following into your index.html file, in the bottom of the <body>:
+
+  ```html
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="js/main.js"></script>
+  ```
+
+  Then, write the following into your `main.js` file:
+
+  ```javascript
+  $(document).ready(function(){
+      $("#make-alert").on('click', function(){
+        alert("BOOP BOOP ALERT ALERT");
+      });
+  });
+  ```
+
+6. Add the following to your `main.css` file:
+  ```css
+  body {
+    background-color: red;
+  }
+  ```
 
 ### Undoing History
+
 
 #### Lab :: Undoing History
 
 ## Using Git with GitHub
 ### How GitHub Fits In
 
-### GitHub Workflow
-
-#### Lab :: GitHub Workflow
+### GitHub Work
 
 ## Further Reading
 -
