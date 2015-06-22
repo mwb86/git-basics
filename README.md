@@ -48,6 +48,44 @@ would move `HEAD` so that it pointed to the previous commit.
 
 If we open our project in Sublime, we can see that the clock has been turned back. Awesome! Unfortunately, it's a "look, don't touch" sort of thing - while we're in what's called 'detached HEAD' mode, it's not possible to make new commits. However there are other commands that let us do that... but first, let's look at how snapshots get made in the first place.
 
+### Making History
+
+Let's take a closer look at how a repository gets built over time.
+
+First, in order to even have a functioning repository, we need a whole bunch of Git machinery to make it all work. To set this up, we navigate into the folder where our project is going to go (let's call it `my_project`) and run `git init`.
+
+![Create directory](images/demo_1_mkdir.png)
+
+![Make directory a repository](images/demo_2_git_init.png)
+
+This creates a hidden folder inside `my_project` called `.git`. We can actually see this folder if we type `ls -a` into the console - this command lets us see hidden files.
+
+Next, we need to write some code! Without anything in our project, there won't be anything to save in the repository. Let's suppose that `my_project` is a website - we probably want an HTML file, a CSS file, and a JavaScript file.
+
+![Creating new files](images/demo_3_touch.png)
+
+Once we've created these files, Git immediately knows what's up; by running the command `git status`, we can see that it has detected three new files which are not currently part of any commits in the repository.
+> To go even more granular, running `git diff` will show us the specific changes that have been made to each individual file.
+
+![Checking the status of our repo](images/demo_4_git_status.png)
+
+In order to include these three files in our next snapshot, we need to run two commands: `git add`, which 'selects' files which files we include, and `git commit` which actually creates the snapshot.
+
+![Adding and committing](images/demo_5_git_add_commit.png)
+
+Running `git commit` will open up a text editor where we can create a commit message - this is where we explain what our commit does and how it changes the repo.
+
+![Writing a commit message](images/demo_6_commit_msg.png)
+
+If we're really in a rush, we can write `git commit -m "some message here"` and put our commit message inline; however, this has the disadvantage of not giving us much time or space to think about our commit messages.
+
+![Commit complete](images/demo_7_commit_complete.png)
+
+And that's it! From then on, your workflow is simply 
+  1. Write some code
+  2. `git add`
+  3. `git commit`
+  4. Repeat!
 
 ### Lab :: Sub-Topic 1
 
