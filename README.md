@@ -9,7 +9,7 @@
 - Use GitHub to submit a pull request.
 
 ## Prerequisites
--
+- Complete Chapter 2 of Fundamentals.
 
 ## Overview :: Top-Level Topic
 
