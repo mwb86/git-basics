@@ -143,11 +143,31 @@ In pairs, work together to make the following changes to this repository. Make a
     background-color: red;
   }
   ```
+7. Edit your `main.css` file and change the background-color of the body to 'blue'.
 
 ### Undoing History
 
+In addition to allowing us to make snapshots, Git also gives us the ability to change or remove them. **Be careful!** It's very easy to shoot yourself in the foot while trying to rewrite history.
+
+##### Re-do a Commit => Amend
+To change a commit that you've just made - for instance, say that you made a typo in your commit message - you can write `git commit --amend`. This will pop up your editor window and allow you to write a new commit message. However, this new commit isn't being added to the previous one; it's replacing the previous commit entirely.
+
+##### Undo a `git add`
+To unstage a file that was 'staged' - marked for inclusion in the next commit - run the command `git reset filename`, where `filename` is the name of the file you want to exclude.
+
+##### Revert to a prior commit
+To go revert your repository to a prior commit, use the command `git reset --hard commit-name`, where `commit-name` is tha alphanumeric name of the commit that you want to wind back the clock to. **THIS ACTION IS DESCTRUCTIVE, AND WILL DESTROY ANY COMMITS THAT HAVE BEEN MADE SINCE THAT POINT.**
+> Instead of writing the name of the commit, you can also write a reference that includes `HEAD`. For instance, writing `git reset --hard HEAD` will reset the repo to its state at the most recent commit, erasing all changes made since then; `git reset --hard HEAD~1` will reset the repo to one commit _before_ the last commit; etc.
 
 #### Lab :: Undoing History
+
+In pairs...
+
+1. Undo the most recent commit. What color is the background of the page now?
+
+2. Add a new file to the `css` directory called mobile.css and run `git add` on it to _tentatively_ include it in the next commit; however, instead of committing it, unstage the change.
+
+3. Run `git log` to see your full commit history. Oh no! You forgot to mention that the sky was blue in your last commit. Rewrite your last commit message, adding the line "The sky is blue." to the end.
 
 ## Using Git with GitHub
 ### How GitHub Fits In
