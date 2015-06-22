@@ -100,6 +100,7 @@ In pairs, work together to make the following changes to this repository. Make a
 1. Link your HTML to your CSS file by putting the following code in the `<head>` section.
 
   ```HTML
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   ```
 
