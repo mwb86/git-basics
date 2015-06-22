@@ -6,17 +6,19 @@
 ## Prerequisites
 -
 
-## Topic 1
+## Overview :: Top-Level Topic
 
-### Lab :: Topic 1
+## Sub-Topic 1
 
-## Topic 2
+### Lab :: Sub-Topic 1
 
-### Lab :: Topic 2
+## Sub-Topic 2
 
-## Topic 3
+### Lab :: Sub-Topic 2
 
-### Lab :: Topic 3
+## Sub-Topic 3
+
+### Lab :: Sub-Topic 3
 
 ## Further Reading
 -
