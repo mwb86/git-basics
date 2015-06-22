@@ -11,7 +11,11 @@
 ## Prerequisites
 - Complete Chapter 2 of Fundamentals.
 
-## Overview :: Top-Level Topic
+## Overview :: Version Control
+
+Have you ever worked on a document - say, a resume - and produced a dozen different versions of it? What a pain. Not only do you need to keep track of what changes you make each time, you need a reasonable system for organizing and managing all of the different versions. Now imagine that you had 50 different versions, with multiple contributors, and that the document you were editing was 20 to 30 thousand lines long. Yeesh.
+
+Software projects are made up of a **ton** of code, and often projects are so large, require so many iterations, and involve so many people that version control isn't a luxury - it's a **necessity**.
 
 ## Sub-Topic 1
 
