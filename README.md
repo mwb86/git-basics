@@ -46,7 +46,9 @@ would move `HEAD` so that it pointed to the previous commit.
 
 ![Detached HEAD](images/detached_head.png)
 
-If we open our project in Sublime, we can see that the clock has been turned back. Awesome! Unfortunately, it's a "look, don't touch" sort of thing - while we're in what's called 'detached HEAD' mode, it's not possible to make new commits. However there are other commands that let us do that... but first, let's look at how snapshots get made in the first place.
+If we open our project in Sublime, we can see that the clock has been turned back. Awesome! Unfortunately, it's a "look, don't touch" sort of thing - while we're in what's called 'detached HEAD' mode, it's not possible to make new commits. However there are other commands that let us do that... but first, a lab!
+
+#### Lab :: Browsing Through History
 
 ### Making History
 
@@ -81,21 +83,25 @@ If we're really in a rush, we can write `git commit -m "some message here"` and 
 
 ![Commit complete](images/demo_7_commit_complete.png)
 
-And that's it! From then on, your workflow is simply 
+And that's it! From then on, your workflow is simply
   1. Write some code
   2. `git add`
   3. `git commit`
   4. Repeat!
 
-### Lab :: Sub-Topic 1
+#### Lab :: Making History
 
-## Sub-Topic 2
 
-### Lab :: Sub-Topic 2
+### Undoing History
 
-## Sub-Topic 3
+#### Lab :: Undoing History
 
-### Lab :: Sub-Topic 3
+## Using Git with GitHub
+### How GitHub Fits In
+
+### GitHub Workflow
+
+#### Lab :: GitHub Workflow
 
 ## Further Reading
 -
