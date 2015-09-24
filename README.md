@@ -1,12 +1,23 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
 ## Objectives
-- Use `git log` and `git checkout` to look through the history of a repository.
-- Use `git init` to create a repository.
-- Use `git status`, `git diff`, `git add`, and `git commit` to create new snapshots in the repository.
-- Use `git reset` and `git commit --amend` to undo or rewrite changes to the repository.
-- Use GitHub to fork and clone a repository.
-- Use GitHub to submit a pull request.
+
+- Initialize a git repository.
+- Stage changes to prepare them for a commit.
+- Unstage changes that are not ready for a commit.
+- Commit related changes with a descriptive message.
+- Write commit messages using best practices.
+- Travel through history to observe snapshots.
+- View the status of the repository and the structure of the commits.
+- Observe the differences between commits.
+- Create topic branches based on your current task.
+- List all available branches.
+- Change branches.
+
+- Fork and clone a repository.
+- Update a repository from an upstream repository.
+- Submit a pull request.
+
 
 ## Prerequisites
 - Complete Chapter 2 of Fundamentals.
