@@ -90,7 +90,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ##### Definition: Git branches.
 A **Git branch** gives us the ability to have multiple versions of the project. Each version of the project can be in a very different state. 
 
-One branch typically holds all one *project feature*. Another words it contains, or sandboxes, all the changes that need to made to implement a feature.
+One branch typically holds all one *project feature*. In other words it contains, or sandboxes, all the changes that need to made to implement a feature.
 
 > The current status is that we have one **branch named master**. The **master branch** is the default branch that git creates for us.
 
