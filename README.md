@@ -153,6 +153,7 @@ nothing to commit, working directory clean
 ```
 
 > Now that we've commited the file git tells us we're all good, have a *clean working directory*.
+> Let's take a look at [Explain Git](http://www.wei-wang.com/ExplainGitWithD3/)
 
 > Before we move on lets try one more Git command, ``git log``.
 
@@ -327,7 +328,8 @@ Working with your team/squad. Draw a representation of the git branches and each
 * [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
 
 ## References
-
+* [Git Commands](command-reference.md)
+* [Visualizing Git Commands](http://www.wei-wang.com/ExplainGitWithD3/)
 * [Git Book](https://git-scm.com/book/en/v2)
 * [Pro Git](https://progit.org/)
 * [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
