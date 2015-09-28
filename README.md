@@ -127,6 +127,8 @@ In order for Git to track a file or a set of files it's will be **staged**. You 
 
 > Now that Git is tracking the file in it's index we will commit the file.
 
+![Git Staging](images/git-commit-staging.png)
+
 **Git commit the README.**
 
 ```bash
@@ -143,7 +145,6 @@ Initialized the project.
                                                                                
 Initialized the project and added a minimal README file.
 ```
-
 > And look at the project status again.
 
 ```bash
@@ -154,6 +155,10 @@ nothing to commit, working directory clean
 
 > Now that we've commited the file git tells us we're all good, have a *clean working directory*.
 > Let's take a look at [Explain Git](http://www.wei-wang.com/ExplainGitWithD3/)
+
+![Git Staging](images/git-staging-area.png)
+
+**View the commit with log.**
 
 > Before we move on lets try one more Git command, ``git log``.
 
@@ -183,7 +188,23 @@ Then commit, write a commit message and check the status.
 
 Then look at the history of commits with ``git log``.
 
+
 ## We Do.
+
+> So now, we have a couple of commits. Each commit refers the previous commit and the *master* branch now points or refers to the most recent commit.
+> 
+> Here we have three commits:
+
+* C0 which was our initial commit when we added the README.
+* C1 is the commit where we added the license .
+* C2 is some future commit.
+
+
+
+![Git Staging](images/git-master-ref.png)
+
+> The master branch is really only a pointer to the a commit! It's moves to the most recent commit by default.
+
 
 ### Create the departments. 
 
@@ -315,6 +336,15 @@ Tom Smith,888-989-777,ts@example.com, associate
 Meg Brown,978-453-8984,megb@example.com,manager
 ```
 
+
+## I Do
+
+> Now we have two branches. The branch that starts with the first commit, C0, is the master branch.
+> 
+> master has four commits, C0 through C4.
+![Git Staging](images/git-commit-graph.png)
+> create-departments has two commits, C3 and C5. C3 is the first commit in create-departments and it's predessosor branck was C2.
+> 
 
 ## You Do.
 
