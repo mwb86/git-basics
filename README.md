@@ -1,13 +1,11 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
 ## Objectives
-- Manage change in a project.
-- Track changes in a project.
-- Isolate and "Sandbox" change.
-- Undo changes in a project.
-- View changes in a project.
-- Document changes in a project.
 
+- Initialize a git repository in order to track changes.
+- Place new or changed files into the staging area to prepare them for a commit.
+- Remove files from the staging area before a commit.
+- Commit new and changed files to a git repository.
 
 ## Prerequisites
 - Complete Chapter 2 of Fundamentals.
