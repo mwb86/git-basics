@@ -3,6 +3,7 @@
 ## Objectives
 
 - Initialize a git repository in order to track changes.
+- Create a new branch to isolate your changes.
 - Place new or changed files into the staging area to prepare them for a commit.
 - Remove files from the staging area before a commit.
 - Commit new and changed files to a git repository.
