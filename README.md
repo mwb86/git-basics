@@ -366,4 +366,8 @@ Working with your team/squad. Draw a representation of the git branches and each
 * Source Control movie [Download this](https://www.dropbox.com/s/qricsuvkdlc5sn1/jim_wierich_git.mov?dl=0)
 * [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
 
+## [License](LICENSE)
 
+Source code distributed under the MIT license. Text licensed under the
+[wtfpl](http://www.wtfpl.net). General Assembly copyright General Assembly,
+Inc., all rights reserved.
