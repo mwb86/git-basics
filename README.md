@@ -15,16 +15,6 @@ commit.
 
 -  [WDI Fundamentals, Chapter 2](http://fundamentals.generalassemb.ly/02_chapter/intro.html)
 
-## Overview
-
--   Source control using only the file system
--   Why source control
--   What is a good commit message
--   Initialize repository
--   Initial commit
--   Branch, change, add, commit
--   Unstage changes
-
 ## Why Git?
 
 Version control! As developers our code is our livelyhood so it's important
@@ -90,7 +80,7 @@ should open.
 
 ## Lab: Crafting A Commit
 
-Read over the following blog posts and carefully thing about what a good commit
+Read over the following blog posts and carefully think about what a good commit
 message would be. Take some time to come up with your own. Be ready to share
 your commit with the rest of the class.
 
@@ -104,8 +94,8 @@ Together, let's continue our story.
 In our `a-sad-tail.md`, we'll tell the rest of Ned Stark's story.  Paste this in
 below our current description and save:
 
-```bash
-Ned Stark went to King\'s landing and where he made lots of friends and lived
+```
+Ned Stark went to King's landing and where he made lots of friends and lived
 happily ever after...  He definitely did get axe murdered.
 ```
 
@@ -133,6 +123,28 @@ Similar to have one main story and various sub-plots a branch lets us
 effectively duplicate and section off the code we have writte thus far, make
 alterations to it, and if we would like at some point we can join it back to the
 main branch (typically called `master`).
+
+Create a branch called `dream-story` by typing `git branch dream-story`.
+
+***You can see all your current branches at any time by tying `git branch`.***
+
+Now that we've created out branch in order to use it we have to switch to it.
+We can do this with the command `git checkout <"branch_name">`.
+
+## Lab: Branching Your Dreams
+
+1.Switch to your `dream-story` branch and write a brief description of what
+you would have wanted to happen to Ned.
+
+2.Save the file, Stage and commit your changes.
+
+3.Switch back to your `master` branch. (Notice anything?) Add what really
+happened to Ned.
+
+4.Stage and commit your changes.
+
+(Be ready to talk about any issues you many have encountered or strange things
+you may have noticed).
 
 ## References
 
