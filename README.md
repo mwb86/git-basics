@@ -96,7 +96,7 @@ of your files you can type `git status` in the terminal at any time.
 
 ___Remember: Staging isn't commiting___
 
-## Unstaging: Maybe We Jumpped the Gun
+## Unstaging: Maybe We Jumped the Gun
 
 It turns out Ned actually did get axe murdered. So we probably want to unstage
 our file.
