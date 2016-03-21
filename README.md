@@ -37,7 +37,9 @@ our app we want to be able to go back to a point when our app was last working.
 Let's initalize a local repository.
 
 1.In your training directory create a subdirectory called `game-of-gits`.
+
 2.Inside of the `game-of-gits` directory create a file called `a-sad-tail.md`.
+
 3.Opening the file with Atom copy in the following lines:
 
 ```bash
@@ -47,8 +49,11 @@ Regent.  He is surely honorable and will lead a long and prosperous life.
 ```
 
 4.Save the file.
+
 5.Inside of the `game-of-gits` directory type `git status`. Did anything happen?
+
 6.Again, inside the `game-of-gits` directory type `git init`.
+
 7.Type `git status` again. Did anything happen this time?
 
 ## Demo: Linking with GitHub
@@ -61,7 +66,7 @@ Now create your own GitHub repository.
 
 ## Code Along: Staging and Commiting
 
-1.Using `git add <"name_of_file">` we are going to add our story to the staging
+Using `git add <"name_of_file">` we are going to add our story to the staging
 area.
 
 There are 3 states that your file can reside in `committed`, `modified` and
@@ -86,8 +91,48 @@ should open.
 ## Lab: Crafting A Commit
 
 Read over the following blog posts and carefully thing about what a good commit
-message would be. Be ready to share your commit with the rest of the group.
+message would be. Take some time to come up with your own. Be ready to share
+your commit with the rest of the class.
 
+-   [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+-   [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
+
+## Staging: And He Lived Happily After
+
+Together, let's continue our story.
+
+In our `a-sad-tail.md`, we'll tell the rest of Ned Stark's story.  Paste this in
+below our current description and save:
+
+```bash
+Ned Stark went to King\'s landing and where he made lots of friends and lived
+happily ever after...  He definitely did get axe murdered.
+```
+
+Now using what we learned earlier stage this change. To figure out the status
+of your files you can type `git status` in the terminal at any time.
+
+___Remember: Staging isn't commiting___
+
+## Unstaging: Maybe We Jumpped the Gun
+
+It turns out Ned actually did get axe murdered. So we probably want to unstage
+our file.
+
+Unstage the file with `git reset <"filename">`
+
+Delete the last thing we wrote in `a-sad-tail.md`.
+
+We know that Ned's story doesn't have a happy ending but let's dream big.  We're
+going to create a dream-story branch and write what we would have wanted to
+happen.
+
+## Branching: Multiple Stories, One Main Plot
+
+Similar to have one main story and various sub-plots a branch lets us
+effectively duplicate and section off the code we have writte thus far, make
+alterations to it, and if we would like at some point we can join it back to the
+main branch (typically called `master`).
 
 ## References
 
@@ -95,8 +140,6 @@ message would be. Be ready to share your commit with the rest of the group.
 -   [Learn Version Control with Git](http://www.git-tower.com/learn/git/ebook)
 -   [Visualizing Git Commands](http://www.wei-wang.com/ExplainGitWithD3/)
 -   [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
--   [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
--   [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
 
 ## [License](LICENSE)
 
