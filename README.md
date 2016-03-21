@@ -46,14 +46,6 @@ Regent.  He is surely honorable and will lead a long and prosperous life.
 
 7.Type `git status` again. Did anything happen this time?
 
-## Demo: Linking with GitHub
-
-So we have a local repository, watch as I create a GitHub repository.  Why
-GitHub?  So we can backup our code online.  It also provides us with a useful
-graphical interface and useful collaboration features.
-
-Now create your own GitHub repository.
-
 ## Code Along: Staging and Commiting
 
 Using `git add <"name_of_file">` we are going to add our story to the staging
