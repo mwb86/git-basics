@@ -152,8 +152,9 @@ you may have noticed).
 ## Git Best Practices
 
 -   NEVER use `git add .`
--   NEVER add more than one file at a time
--   NEVER use `git commit -m ""`
+-   ALWAYS add files explicitly. If you have multiple files, use full paths to
+    refer to each. Example: `git add foo/bar.md baz/qux.js`
+-   NEVER use `git commit -m "an example commit message"`
 -   ALWAYS use `git status` before any other command
 -   NO commit is too small
 -   NO commit message is too long
