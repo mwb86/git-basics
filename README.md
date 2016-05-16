@@ -13,9 +13,9 @@ commit.
 
 ## Prerequisites
 
--  [WDI Fundamentals, Chapter 2](http://fundamentals.generalassemb.ly/02_chapter/intro.html)
+-   [WDI Fundamentals, Chapter 2](http://fundamentals.generalassemb.ly/02_chapter/intro.html)
 
-## Why Git?
+## Why Git
 
 Version control! As developers our code is our livelyhood so it's important
 that we safely store our work... frequently.  Not only that we want to track our
@@ -60,6 +60,7 @@ Committed means that the data is safely stored in your local database. Modified
  yet. Staged means that you have marked a modified file in its current version
 to go into your next commit snapshot.
 ```
+
 [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
 ![Git Sections](https://git-scm.com/book/en/v2/book/01-introduction/images/areas.png)
@@ -86,9 +87,9 @@ Together, let's continue our story.
 In our `a-sad-tail.md`, we'll tell the rest of Ned Stark's story.  Paste this in
 below our current description and save:
 
-```
+```sh
 Ned Stark went to King's landing and where he made lots of friends and lived
-happily ever after...  He definitely did get axe murdered.
+happily ever after...  He definitely didn't get axe murdered.
 ```
 
 Now using what we learned earlier stage this change. To figure out the status
@@ -118,7 +119,7 @@ main branch (typically called `master`).
 
 Create a branch called `dream-story` by typing `git branch dream-story`.
 
-***You can see all your current branches at any time by tying `git branch`.***
+_You can see all your current branches at any time by tying `git branch`._
 
 Now that we've created out branch in order to use it we have to switch to it.
 We can do this with the command `git checkout <"branch_name">`.
