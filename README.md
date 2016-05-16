@@ -152,9 +152,9 @@ you may have noticed).
 ## Git Best Practices
 
 -   NEVER use `git add .`
--   NEVER use 'git commit -m ""'
+-   NEVER use `git commit -m ""`
 -   ALWAYS use `git status` before any other command
--   NO commit is too small and no commit message is too long 
+-   NO commit is too small and no commit message is too long
 
 ## References
 
