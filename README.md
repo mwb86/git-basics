@@ -139,6 +139,16 @@ happened to Ned.
 (Be ready to talk about any issues you many have encountered or strange things
 you may have noticed).
 
+## Git Workflow Checklist
+
+-   []git status to confirm clean working directory
+-   []confirm branch is correct
+-   []make changes to 'file'
+-   []git add '<'file'name>
+-   []git status (to confirm modified files have been staged)
+-   []git commit
+-   []git push origin '<branch>'
+
 ## References
 
 -   [Git Commands Cheatsheet](command-reference.md)
