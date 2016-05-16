@@ -141,10 +141,10 @@ you may have noticed).
 
 ## Git Workflow Checklist
 
-- [ ] git status to confirm clean working directory
+- [ ] `git status` to confirm clean working directory
 - [ ] confirm branch is correct
 - [ ] make changes to `file`
-- [ ] `git add file'`
+- [ ] `git add 'file'`
 - [ ] `git status` (to confirm modified files have been staged)
 - [ ] `git commit`
 - [ ] `git push origin <branchname>`
