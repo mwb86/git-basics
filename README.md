@@ -149,6 +149,13 @@ you may have noticed).
 -   [ ] `git commit`
 -   [ ] `git push origin <branchname>`
 
+## Git Best Practices
+
+-   NEVER use `git add .`
+-   NEVER use 'git commit -m ""'
+-   ALWAYS use `git status` before any other command
+-   NO commit is too small and no commit message is too long 
+
 ## References
 
 -   [Git Commands Cheatsheet](command-reference.md)
