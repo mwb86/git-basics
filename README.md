@@ -72,6 +72,13 @@ area.
 Now that our file is staged let's commit our file by typing `git commit`, Atom
 should open.
 
+**Do Not Use `git commit -m <message>`**
+
+When you use -m to create an inline commit you are doing yourself and others a
+disservice.  Your commit will be inherently poor due to the short nature of
+inline commits, and the lack of a body description to it. This is surely a sign
+of a poor developer and one that does not respect his or her teammate's time.
+
 ## Lab: Crafting A Commit
 
 Read over the following blog posts and carefully think about what a good commit
