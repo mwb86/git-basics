@@ -54,12 +54,13 @@ area.
 There are 3 states that your file can reside in `committed`, `modified` and
 `staged`.  These states map to the different sections of a Git project.
 
-```bash
-Committed means that the data is safely stored in your local database. Modified
- means that you have changed the file but have not committed it to your database
- yet. Staged means that you have marked a modified file in its current version
+-  Committed means that the data is safely stored in your local database.
+
+-  Modified means that you have changed the file but have not committed it to
+your database yet.
+
+-  Staged means that you have marked a modified file in its current version
 to go into your next commit snapshot.
-```
 
 [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
