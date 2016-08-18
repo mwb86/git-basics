@@ -28,7 +28,7 @@ Let's initalize a local repository.
 
 1.In your training directory create a subdirectory called `game-of-gits`.
 
-2.Inside of the `game-of-gits` directory create a file called `a-sad-tail.md`.
+2.Inside of the `game-of-gits` directory create a file called `sad-tale.md`.
 
 3.Opening the file with Atom copy in the following lines:
 
@@ -54,12 +54,10 @@ area.
 There are 3 states that your file can reside in `committed`, `modified` and
 `staged`.  These states map to the different sections of a Git project.
 
--  Committed means that the data is safely stored in your local database.
-
--  Modified means that you have changed the file but have not committed it to
+-   Committed means that the data is safely stored in your local database.
+-   Modified means that you have changed the file but have not committed it to
 your database yet.
-
--  Staged means that you have marked a modified file in its current version
+-   Staged means that you have marked a modified file in its current version
 to go into your next commit snapshot.
 
 [Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
@@ -70,9 +68,7 @@ When we add a file we are moving it from the working directory to the staging
 area.
 
 Now that our file is staged let's commit our file by typing `git commit`, Atom
-should open.
-
-**Do Not Use `git commit -m <message>`**
+should open. **Do Not Use `git commit -m <message>`**
 
 When you use -m to create an inline commit you are doing yourself and others a
 disservice.  Your commit will be inherently poor due to the short nature of
@@ -88,22 +84,28 @@ your commit with the rest of the class.
 -   [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 -   [What's in a Good Commit?](http://dev.solita.fi/2013/07/04/whats-in-a-good-commit.html)
 
+Now that we've made our first commit, let's see what happens when we type `git
+log`... We see our previous commit! This typically shows all of our previous
+commits, but since we just have one, that's all we see. Feel free to play around
+with options for `git log`, like `--oneline`, `--name-status`, and `--graph`
+for example. For all options [click here.](https://git-scm.com/docs/git-log)
+
 ## Staging: And He Lived Happily After
 
 Together, let's continue our story.
 
-In our `a-sad-tail.md`, we'll tell the rest of Ned Stark's story.  Paste this in
+In our `sad-tail.md`, we'll tell the rest of Ned Stark's story.  Paste this in
 below our current description and save:
 
 ```sh
-Ned Stark went to King's landing and where he made lots of friends and lived
+Ned Stark went to King's landing where he made lots of friends and lived
 happily ever after...  He definitely didn't get axe murdered.
 ```
 
 Now using what we learned earlier stage this change. To figure out the status
 of your files you can type `git status` in the terminal at any time.
 
-___Remember: Staging isn't commiting___
+**Remember: Staging isn't commiting**
 
 ## Unstaging: Maybe We Jumped the Gun
 
@@ -112,7 +114,7 @@ our file.
 
 Unstage the file with `git reset <"filename">`
 
-Delete the last thing we wrote in `a-sad-tail.md`.
+Delete the last thing we wrote in `sad-tail.md`.
 
 We know that Ned's story doesn't have a happy ending but let's dream big.  We're
 going to create a dream-story branch and write what we would have wanted to
@@ -120,16 +122,15 @@ happen.
 
 ## Branching: Multiple Stories, One Main Plot
 
-Similar to have one main story and various sub-plots a branch lets us
+Similar to having one main story and various sub-plots--a branch lets us
 effectively duplicate and section off the code we have writte thus far, make
 alterations to it, and if we would like at some point we can join it back to the
 main branch (typically called `master`).
 
 Create a branch called `dream-story` by typing `git branch dream-story`.
-
 _You can see all your current branches at any time by tying `git branch`._
 
-Now that we've created out branch in order to use it we have to switch to it.
+Now that we've created our branch--in order to use it we have to switch to it.
 We can do this with the command `git checkout <"branch_name">`.
 
 ## Lab: Branching Your Dreams
