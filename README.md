@@ -95,7 +95,7 @@ for example. For all options [click here.](https://git-scm.com/docs/git-log)
 
 Together, let's continue our story.
 
-In our `sad-tail.md`, we'll tell the rest of Ned Stark's story.  Paste this in
+In our `sad-tale.md`, we'll tell the rest of Ned Stark's story.  Paste this in
 below our current description and save:
 
 ```sh
@@ -115,7 +115,7 @@ our file.
 
 Unstage the file with `git reset <"filename">`
 
-Delete the last thing we wrote in `sad-tail.md`.
+Delete the last thing we wrote in `sad-tale.md`.
 
 We know that Ned's story doesn't have a happy ending but let's dream big.  We're
 going to create a dream-story branch and write what we would have wanted to
