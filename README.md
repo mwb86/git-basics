@@ -26,25 +26,26 @@ our app we want to be able to go back to a point when our app was last working.
 
 Let's initalize a local repository.
 
-1.In your training directory create a subdirectory called `game-of-gits`.
+1.  In your training directory create a subdirectory called `game-of-gits`.
 
-2.Inside of the `game-of-gits` directory create a file called `sad-tale.md`.
+1.  Inside of the `game-of-gits` directory create a file called `sad-tale.md`.
 
-3.Opening the file with Atom copy in the following lines:
+1.  Opening the file with Atom copy in the following lines:
 
-```bash
-House Stark of Winterfell is led by the just Eddard "Ned" Stark, Lord of
-Winterfell, Warden of the North, Hand of the King, Protector of the Realm,
-Regent.  He is surely honorable and will lead a long and prosperous life.
-```
+  ```bash
+  House Stark of Winterfell is led by the just Eddard "Ned" Stark, Lord of
+  Winterfell, Warden of the North, Hand of the King, Protector of the Realm,
+  Regent.  He is surely honorable and will lead a long and prosperous life.
+  ```
 
-4.Save the file.
+1.  Save the file.
 
-5.Inside of the `game-of-gits` directory type `git status`. Did anything happen?
+1.  Inside of the `game-of-gits` directory type `git status`. Did anything
+happen?
 
-6.Again, inside the `game-of-gits` directory type `git init`.
+1.  Again, inside the `game-of-gits` directory type `git init`.
 
-7.Type `git status` again. Did anything happen this time?
+1.  Type `git status` again. Did anything happen this time?
 
 ## Code Along: Staging and Commiting
 
@@ -120,6 +121,25 @@ We know that Ned's story doesn't have a happy ending but let's dream big.  We're
 going to create a dream-story branch and write what we would have wanted to
 happen.
 
+## Removing: Now we need to remove files previously added
+
+1.  Inside of `game-of-gits` create a file called `the-stark-bunch.md`.
+
+1.  Type `This is a story... of a man named Neddy... and three
+very badass really awesome girls`.
+
+1.  Save the file.
+
+1.  `git add very-bad-tale.md`.
+
+1.  `git rm --cache very-bad-tale.md`.
+
+1.  `git add very-bad-tale.md`.
+
+1.  `git rm -f very-bad-tale.md`.
+
+What's the difference? What is actually happening with the `rm` command?
+
 ## Branching: Multiple Stories, One Main Plot
 
 Similar to having one main story and various sub-plots--a branch lets us
@@ -147,6 +167,11 @@ happened to Ned.
 
 (Be ready to talk about any issues you many have encountered or strange things
 you may have noticed).
+
+## Lab: Learn Git Branching
+
+Now let's take 10-15 minutes and go through [Learn Git Branching](http://learngitbranching.js.org/)
+together.
 
 ## Git Workflow Checklist
 
