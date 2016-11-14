@@ -1,1 +1,1 @@
-They all met a terrible fate.
+They all met the worst demise imaginable.
